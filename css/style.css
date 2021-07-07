@@ -32,10 +32,36 @@ h1{
     width: 240px;
     background-color: white;
 }
+button{
+    margin-left:20px;
+        width:100px;
+        height:40px;
+        border-radius: 30px;
+        border:none;
+        background-color:rgba(255,255,255,0.6);
+        color: rgb(80,80,80);
+        font-size:1rem;
+        font-weight: 600;
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+        outline: none;
+        cursor: pointer;
+        transition: all, 0.4s;
+}
+
 
 #todo-form{
     text-align: center;
     margin-top:0px;
+}
+#todo-form input{
+    text-align: center;
+    color:white;
+    font-size:1rem;
+    padding: 10px;
+    width: 240px;
+    background-color: white;
+    margin-bottom:20px;
+    margin-top:20px;
 }
 
 #clock{
@@ -45,4 +71,23 @@ h1{
     margin:10px;
     color:white;    
     padding:-100px;
+}
+
+#quotes{
+    text-align: center;
+    color: white;
+    position:fixed;
+    bottom:20px;
+    margin-left: 36px;
+    font-size:0.8rem;
+    font-weight: 200;
+}
+
+#weather{
+    position:fixed;
+    top:20px;
+    right:36px;
+    color:white;
+    font-size:0.9rem;
+    font-weight: 700;
 }
