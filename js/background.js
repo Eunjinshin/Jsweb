@@ -11,3 +11,4 @@ const bgImage = document.createElement("img");
 bgImage.src = `img/${chosenImage}`;
 
 document.body.appendChild(bgImage);
+bgImage.id = 'bgImage';//CSS에서 사용하기 위해
